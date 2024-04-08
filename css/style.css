@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: karla;
+}
+
+nav {
+
+    padding: 1rem 0rem;
+
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.logo a {
+    color: #989292;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu a {
+    color: #989292;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.container {
+    max-width: 1600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0rem auto;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+    background-color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: 900px;
+    background-color: #f9d6d4;
+    /* background-image: url(img/banner.jpg); */
+    background-position: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 70%;
+}
+
+
+.topic1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: center; */
+    padding: 2rem;
+    align-items: center;
+    /* margin-top: 5rem; */
+    background-color: #ffffff;
+}
+
+.topic1-text {
+    text-align: center;
+}
+
+.topic1-img img {
+    width: 70%;
+    border-radius: 100%;
+}
+
+
+
+.topic2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 1rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    background-color: #433f4b;
+}
+
+.topic2-img img {
+    width: 100%;
+}
+
+.topic2-btt {
+    padding: 1rem;
+}
+
+.topic2-btt a {
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+
+.topic3 {    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    background-color: #f8d8d8;
+    align-items: center;
+    padding-right: 2rem;
+    margin-top: 5rem;
+}
+
+.topic3-text {
+    text-align: center;
+}
+
+.topic3-text p{
+    color: rgb(87, 87, 87);
+}
+.topic3-img img{
+    width: 100%;
+background-color: pink;
+}
+
+footer{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    /* background-color: black; */
+background-image: url(img/IMG_5127\ -\ Edited.png);
+height: 400px;
+}
+
+.contact{
+    padding: 2rem;
+}
