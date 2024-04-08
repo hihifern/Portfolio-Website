@@ -44,3 +44,41 @@ nav {
     text-decoration: none;
     margin: 2rem;
 }
+
+.container {
+    max-width: 1600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0rem auto;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+    background-color: #fff;
+}
+
+
+.banner{
+    background-color:#e6b5b8;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+}
+
+.banner-text{
+    font-size: 64px;
+    /* align-content: center; */
+    margin-left: 2rem;
+}
+
+.banner-img img{
+    border-radius: 100%;
+    width: 500px;
+    margin-left: 10rem;
+}
+
+.info{
+background-color: #48404d;
+height: 700px;
+}
