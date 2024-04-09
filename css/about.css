@@ -6,18 +6,21 @@
 }
 
 nav {
-
-    padding: 1rem 0rem;
-
+    position: fixed;
+    top: 3;
+    width: 100%;
+    height: 400px;
+    z-index: 1000; /* ให้ Navbar อยู่ข้างหน้า*/
 }
 
 .navbar {
-    padding: 1rem;
+    padding: 2rem 0rem;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+
 }
 
 .logo a {
@@ -57,28 +60,66 @@ nav {
 }
 
 
-.banner{
-    background-color:#e6b5b8;
-    padding: 2rem;
-    margin-top: 2rem;
+.banner {
+    background-color: #e6b5b8;
+    padding: 2rem 0rem 10rem;
+    margin-top: 5rem;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
 }
 
-.banner-text{
+.banner-text {
     font-size: 64px;
     /* align-content: center; */
-    margin-left: 2rem;
+    margin: 3rem 5rem;
 }
 
-.banner-img img{
+.banner-img img {
     border-radius: 100%;
     width: 500px;
     margin-left: 10rem;
+    margin-top: 5rem;
 }
 
-.info{
-background-color: #48404d;
-height: 700px;
+main {
+    background-color: #48404d;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+.edu {
+    color: #fff;
+}
+
+.edu h3 {
+    font-size: 100px;
+}
+
+.edu-info {
+    display: flex;
+    margin: 1rem;
+    padding-bottom: 3rem;
+}
+
+.line {
+    background: #FFFFFF;
+    margin-bottom: 2px;
+    width: 351px;
+    height: 1px;
+}
+
+.edu-text {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    align-content: space-around;
+    margin-left: 1rem;
+}
+
+.skill h3 {
+    font-size: 100px;
+    color: #fff;
+    font-family: 'gobold_hollow';
 }
