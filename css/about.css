@@ -10,7 +10,8 @@ nav {
     top: 3;
     width: 100%;
     height: 400px;
-    z-index: 1000; /* ให้ Navbar อยู่ข้างหน้า*/
+    z-index: 1000;
+    /* ให้ Navbar อยู่ข้างหน้า*/
 }
 
 .navbar {
@@ -84,10 +85,10 @@ nav {
 
 main {
     background-color: #48404d;
-    height: 700px;
+    height: 1900px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .edu {
@@ -115,11 +116,27 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
     align-content: space-around;
-    margin-left: 1rem;
 }
 
 .skill h3 {
     font-size: 100px;
     color: #fff;
     font-family: 'gobold_hollow';
+}
+
+.skill p {
+    /* position: absolute;
+    z-index: 20; */
+
+    color: #fff;
+    font-family: 'gobold_hollow';
+}
+
+.rectangle-8 {
+    position: absolute;
+    z-index: 10;
+    left: -236.2px;
+    top: 1560.6px;
+    width: 1900.3px;
+    height: 1500.9px;
 }
