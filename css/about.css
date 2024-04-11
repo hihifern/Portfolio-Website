@@ -16,16 +16,16 @@ nav {
 
 .navbar {
     padding: 2rem 0rem;
-    background-color: #ffffff;
+    background-color: #86A9ED;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.10);
 
 }
 
 .logo a {
-    color: #989292;
+    color: #ffffff;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -43,14 +43,14 @@ nav {
 }
 
 .menu a {
-    color: #989292;
+    color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     margin: 2rem;
 }
 
 .container {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     overflow: hidden;
     position: relative;
     margin: 0rem auto;
@@ -62,30 +62,46 @@ nav {
 
 
 .banner {
-    background-color: #e6b5b8;
-    padding: 2rem 0rem 10rem;
+    background-color: #F9F6E5;
+    padding: 3rem 0rem 10rem;
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
+    justify-items: center;
 }
 
 .banner-text {
-    font-size: 64px;
-    /* align-content: center; */
-    margin: 3rem 5rem;
+    margin-left: 10rem;
+}
+
+.banner-text h3 {
+    font-family: "Mitr", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: bolder;
+    color: #F9F6E5;
+
+}
+
+.banner-text p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #F48461;
 }
 
 .banner-img img {
     border-radius: 100%;
-    width: 500px;
-    margin-left: 10rem;
-    margin-top: 5rem;
+    width: 700px;
+    margin-top: 3rem;
 }
 
 main {
     background-color: #48404d;
-    height: 1900px;
+    height: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem;
@@ -135,8 +151,27 @@ main {
 .rectangle-8 {
     position: absolute;
     z-index: 10;
-    left: -236.2px;
-    top: 1560.6px;
-    width: 1900.3px;
-    height: 1500.9px;
+    left: -236px;
+    top: 1800px;
+    width: 2300px;
+}
+
+.topic2 {
+    background-color: #48404d;
+    height: 1000px;
+}
+
+.topic2 h3 {
+    font-size: 100px;
+    position: absolute;
+    z-index: 20;
+    top: 1700px;
+    padding: 2rem 5rem;
+}
+
+.topic2 p {
+    position: absolute;
+    z-index: 20;
+    top: 1850px;
+    padding: 2rem;
 }
