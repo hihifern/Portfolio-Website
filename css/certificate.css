@@ -16,17 +16,17 @@ nav {
 
 .navbar {
     padding: 2rem 0rem;
-    background-color: #ffffff;
+    background-color: #86A9ED;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.10);
 
 }
 
 
 .logo a {
-    color: #989292;
+    color: #ffffff;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -44,11 +44,12 @@ nav {
 }
 
 .menu a {
-    color: #989292;
+    color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     margin: 2rem;
 }
+
 
 .container {
     max-width: 1600px;
@@ -70,6 +71,6 @@ nav {
     margin-top: 10rem;
 }
 
-.certi img{
+.certi img {
     width: 600px;
 }
