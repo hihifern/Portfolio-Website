@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: karla;
+                                                
 }
 
 nav {
@@ -50,7 +51,7 @@ nav {
 }
 
 .container {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     overflow: hidden;
     position: relative;
     margin: 0rem auto;
@@ -59,59 +60,67 @@ nav {
     /* padding: 2rem; */
     background-color: #fff;
 }
+.container h2{
+    font-size: 100px;
+
+}
 
 .banner {
-    padding-top: 2rem;
+    /* filter: blur(3px); */
+}
+
+.banner img{
     width: 100%;
 }
 
-.topic1 {
+.project {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
     /* justify-content: center; */
     padding: 2rem;
     align-items: center;
     margin-top: 5rem;
 }
 
-.topic1-text {
+.project-text {
     text-align: center;
 }
 
-.topic1-img img {
-    width: 70%;
-    border-radius: 100%;
+.project-img img {
+    width: 60%;
 }
 
-
-
-.topic2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    column-gap: 1rem;
-    padding: 2rem;
-    margin-top: 5rem;
-    background-color: #433f4b;
+.topic-btt {
+    padding-top: 2rem;
 }
 
-.topic2-img img {
-    width: 100%;
-}
-
-.topic2-btt {
-    padding: 1rem;
-}
-
-.topic2-btt a {
+.topic-btt a {
     text-decoration: none;
     color: #fff;
     background-color: orange;
     padding: 0.5rem;
     border-radius: 50px;
 }
+.activity {
+    padding: 2rem;
+    background-color: #433f4b;
+    height: 1200px;
+}
 
-.topic3 {
+.activity-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    column-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.activity-img img{
+    width: 100%;
+}
+
+.certificate {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
@@ -121,15 +130,15 @@ nav {
     margin-top: 5rem;
 }
 
-.topic3-text {
+.certificate-text {
     text-align: center;
 }
 
-.topic3-text p {
+.certificate-text p {
     color: rgb(87, 87, 87);
 }
 
-.topic3-img img {
+.certificate-img img {
     width: 100%;
     background-color: pink;
 }
@@ -137,8 +146,7 @@ nav {
 footer {
     margin-top: 2rem;
     padding-top: 1rem;
-    /* background-color: black; */
-    background-image: url(img/IMG_5127\ -\ Edited.png);
+    background-color: black;
     height: 400px;
 }
 

@@ -61,12 +61,12 @@ nav {
 }
 
 
-/* .act{
+.act{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 1rem;
     margin: 10rem auto;
-} */
+}
 
 
 .slider-wrapper {
@@ -108,7 +108,7 @@ nav {
     transition: opacity ease 250ms;
 }
 
-/* 
+
 .acti{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -118,4 +118,4 @@ margin-top: 10rem;
 
 .acti img{
     width: 500px;
-} */
+}
