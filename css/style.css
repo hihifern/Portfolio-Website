@@ -73,11 +73,40 @@ nav {
 }
 
 .banner {
-    filter: blur(3px);
+    background-image: url(img/banner-1.jpg);
+    height: 900px;
+    width: 1900px;
 }
 
-.banner img {
-    width: 100%;
+.banner-text {
+    margin: 5rem 0 0 5rem;
+}
+
+.banner-text h3,
+h1 {
+    font-family: "Mitr", sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+.banner-text h1 {
+    
+    color: #333;
+    margin-bottom: -4rem;
+}
+
+.banner-text h3 {
+    font-style: normal;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #F9F6E5;
+
+}
+
+.banner-text p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #F48461;
 }
 
 .project {
@@ -85,17 +114,18 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     /* justify-content: center; */
-    padding: 2rem;
+    
     align-items: center;
     margin-top: 5rem;
 }
 
 .project-text {
     text-align: center;
+    padding: 2rem;
 }
 
 .project-img img {
-    width: 60%;
+    width: 100%;
 }
 
 .topic-btt {
@@ -165,7 +195,7 @@ nav {
     overflow: hidden;
     white-space: nowrap;
     scroll-behavior: smooth;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .carousel.dragging{
@@ -192,7 +222,6 @@ nav {
 .certificate {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
     background-color: rgb(222, 242, 255);
     align-items: center;
 }

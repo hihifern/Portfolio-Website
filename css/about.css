@@ -57,7 +57,7 @@ nav {
     justify-content: center;
     align-items: center;
     /* padding: 2rem; */
-    background-color: #fff;
+    background-color: #F9F6E5;
 }
 
 
@@ -71,7 +71,7 @@ nav {
 }
 
 .banner-text {
-    margin-left: 12rem;
+    margin: 3rem 5rem;
 }
 
 .banner-text h3,
@@ -103,15 +103,14 @@ h2 {
 .banner-img img {
     border-radius: 100%;
     width: 700px;
-    margin: 3rem 2rem;
+    margin: 3rem 0 0 10rem;
 }
 
 main {
-    background-color: #48404d;
+    background-color: rgb(222, 242, 255);
     height: 800px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     padding: 2rem;
+
 }
 
 .edu {
@@ -141,10 +140,25 @@ main {
     align-content: space-around;
 }
 
+.skill  {
+    text-align: center;
+}
 .skill h3 {
-    font-size: 100px;
+    font-size: 80px;
     color: #fff;
-    font-family: 'gobold_hollow';
+    font-family: 'Horizon', sans-serif;
+}
+
+.skill-img {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding-top: 2rem;
+}
+.skill-img img{
+width: 80px;
 }
 
 .skill p {
