@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: karla;
+
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 nav {
@@ -15,17 +20,16 @@ nav {
 
 .navbar {
     padding: 2rem 0rem;
-    background-color: #9ab9f7;
+    background-color: #fff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.10);
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.10);
 
 }
 
-
 .logo a {
-    color: #ffffff;
+    color: #333;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -34,7 +38,6 @@ nav {
 .menu {
     display: flex;
     align-items: center;
-    color: #fff;
     list-style: none;
 }
 
@@ -43,10 +46,14 @@ nav {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #333;
     font-size: 20px;
     text-decoration: none;
     margin: 2rem;
+}
+
+.bg {
+    background-color: #F9F6E5;
 }
 
 

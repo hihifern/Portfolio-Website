@@ -6,6 +6,10 @@
 
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -16,7 +20,7 @@ nav {
 
 .navbar {
     padding: 2rem 0rem;
-    background-color: #9ab9f7;
+    background-color: #fff;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -25,7 +29,7 @@ nav {
 }
 
 .logo a {
-    color: #ffffff;
+    color: #333;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -34,7 +38,6 @@ nav {
 .menu {
     display: flex;
     align-items: center;
-    color: #fff;
     list-style: none;
 }
 
@@ -43,14 +46,10 @@ nav {
 }
 
 .menu a {
-    color: #ffffff;
+    color: #333;
     font-size: 20px;
     text-decoration: none;
     margin: 2rem;
-}
-
-.bg {
-    background-color: #F9F6E5;
 }
 
 .container {
@@ -79,7 +78,7 @@ nav {
     background-image: url(img/download.jpg);
 
     height: 900px;
-    width: 1900px;
+    width: 1920px;
 }
 
 .banner-text {
@@ -146,11 +145,18 @@ h1 {
     padding: 10px;
 }
 
+.line {
+    background: #3f3f3f;
+    margin: 5rem auto;
+    width: 1200px;
+    height: 1px;
+}
+
 .activity {
     padding: 2rem;
     margin-top: 10rem;
     /* background-color: #433f4b; */
-    height: 1000px;
+    /* height: 1000px; */
 }
 
 /* .activity-con {
@@ -229,9 +235,7 @@ h1 {
 .certificate {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
     height: 800px;
-    background-color: rgb(222, 242, 255);
     align-items: center;
     margin: 0 auto;
 }
@@ -263,8 +267,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3rem;
-    max-width: 1140px;
-    padding: 10rem 0 10rem 0;
+    max-width: 1200px;
+    padding: 9rem 0 9rem 0;
     align-items: center;
     overflow: hidden;
     margin: 0rem auto;
@@ -279,7 +283,8 @@ h1 {
 
 footer {
     display: flex;
-    background-color: #9ab9f7;
+    background-color: #fff;
+    box-shadow: 0.2rem 0 0.2rem rgba(0, 0, 0, 0.10);
     /* height: 200px; */
     justify-content: center;
     align-items: center;
