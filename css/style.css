@@ -7,12 +7,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
 
 body {
-    background-color: #ebebeb;
+    background-color: #ffffff;
 }
 
 nav {
@@ -64,60 +68,104 @@ nav {
     margin: 0rem auto;
     justify-content: center;
     align-items: center;
-    /* padding: 2rem; */
+    padding: 0 2rem;
 
 }
 
 .container h2 {
     font-size: 2rem;
+
 }
 
 .container p {
     font-size: 20px;
 }
 
-.about {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 0;
-    align-items: center;
+.container-profile {
+    height: 60rem;
+    padding: 10rem 0;
 }
 
-.about h1 {
+.profile {
+    position: absolute;
+    left: 10rem;
+    height: 20rem;
+    width: 80%;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+}
+
+.profile:hover {
+    transform: rotateY(180deg);
+}
+
+.profile-card-front {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10rem 0; */
+}
+
+.profile-card-back {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 7rem;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    /* padding: 10rem 0; */
+}
+
+.leyers img {
+    width: 20rem;
+    position: absolute;
+    bottom: 15rem;
+    left: 5rem;
+    z-index: 10;
+}
+
+.about-front {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding: 3rem;
+    background-color: #000;
+    border-radius: 12px;
+    width: 80%;
+    height: 30rem;
+}
+
+.about-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20rem;
+    background-color: #000;
+    border-radius: 12px;
+    width: 100%;
+    height: 30rem;
+}
+
+.about-text h1 {
     font-size: 6rem;
-    font-family: Nothing You Could Do;
-    padding: 2rem;
+    font-family: PP Editorial Old;
+    font-weight: 200;
+    color: red;
+}
+
+.about-text p {
+    color: red;
+    font-size: 1.5rem;
+    border-bottom: 2px dashed snow;
+    margin: 0 0 15px 0;
 }
 
 .about-img img {
-    border-radius: 100%;
     width: 100%;
-    margin: 0rem 10rem 0 0;
-    padding: 4rem;
 }
-
-.social-icon i {
-    color: #a04848;
-    font-size: 2rem;
-    padding: 1rem;
-}
-
-.social-icon a {
-    border: 0.1rem solid saddlebrown;
-    border-radius: 100%;
-    font-size: 3rem;
-    margin: 1rem;
-}
-
-.social-icon a:hover {
-    background-color: crimson;
-
-}
-
-.social-icon i:hover {
-    color: #fff;
-}
-
 
 .project {
     display: grid;
@@ -152,7 +200,8 @@ nav {
 }
 
 hr {
-    margin: 5rem 0 10rem 0;
+    margin: 5rem 0;
+    /* margin: 5rem 0 10rem 0; */
 }
 
 .activity {
